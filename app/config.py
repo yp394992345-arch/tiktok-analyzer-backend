@@ -24,12 +24,14 @@ class Settings(BaseSettings):
 
     # 阿里云视觉智能 - OCR识别和画面分析
     # 获取地址: https://vision.aliyun.com
-    ALIYUN_VISION_ACCESS_KEY: str = "LTAI5tCoJ7f2jBfs8fNp7M98"
-    ALIYUN_VISION_SECRET_KEY: str = "EZtKFXlFlJB5jndaYgURplVpdP1HlG"
+    # 请在服务器上设置环境变量 ALIYUN_VISION_ACCESS_KEY 和 ALIYUN_VISION_SECRET_KEY
+    ALIYUN_VISION_ACCESS_KEY: str = ""
+    ALIYUN_VISION_SECRET_KEY: str = ""
 
     # 通义千问 - 大语言模型话术分析
     # 获取地址: https://dashscope.console.aliyun.com
-    TONGYI_QIANWEN_API_KEY: str = "sk-cdfb23471e6145229e402b4b999c78d1"
+    # 请在服务器上设置环境变量 TONGYI_QIANWEN_API_KEY
+    TONGYI_QIANWEN_API_KEY: str = ""
 
     # ==================== 应用配置 ====================
     APP_NAME: str = "TikTok视频智能拆解助手"
