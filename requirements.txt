@@ -17,7 +17,7 @@ google-cloud-storage==1.43.0
 
 # Aliyun
 alibabacloud_tea_openapi==0.3.9
-alibabacloud_alivision20220629==4.0.0
+alibabacloud_vision==3.0.0
 
 # Tongyi Qianwen (Aliyun LLM)
 dashscope==1.14.1
