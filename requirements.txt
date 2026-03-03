@@ -7,18 +7,6 @@ python-multipart==0.0.6
 httpx==0.26.0
 requests==2.31.0
 
-# Video and audio processing
-moviepy==1.0.3
-pydub==0.25.1
-
-# Google Cloud
-google-cloud-speech==2.25.0
-google-cloud-storage==1.43.0
-
-# Aliyun
-alibabacloud_tea_openapi==0.3.9
-alibabacloud_vision==3.0.0
-
 # Tongyi Qianwen (Aliyun LLM)
 dashscope==1.14.1
 
