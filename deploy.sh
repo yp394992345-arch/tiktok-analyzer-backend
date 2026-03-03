@@ -25,10 +25,10 @@ export TONGYI_QIANWEN_API_KEY="sk-cdfb23471e6145229e402b4b999c78d1"
 export ALIYUN_VISION_ACCESS_KEY="LTAI5tCoJ7f2jBfs8fNp7M98"
 export ALIYUN_VISION_SECRET_KEY="EZtKFXlFlJB5jndaYgURplVpdP1HlG"
 
-# 5. 启动后端服务
+# 5. 启动后端服务（注意：必须从项目根目录运行）
 echo "[5/5] 启动服务..."
-cd /root/tiktok-analyzer-backend/app
-nohup python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 > /root/server.log 2>&1 &
+cd /root/tiktok-analyzer-backend
+nohup python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 > /root/server.log 2>&1 &
 
 echo "=== 部署完成 ==="
 sleep 3
